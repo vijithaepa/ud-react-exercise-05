@@ -39,5 +39,5 @@ export default class AddItem extends Component {
 }
 
 AddItem.propTypes = {
-    addItem: PropTypes.func.required
+    addItem: PropTypes.func.isRequired
 }
